@@ -4,7 +4,7 @@ LABEL repository="https://github.com/groupninemedia/filter-git-diff"
 LABEL homepage="https://github.com/groupninemedia/filter-git-diff"
 LABEL maintainer="GroupNineMedia <devops@groupninemedia.com>"
 LABEL "com.github.actions.name"="Filter Git Diff"
-LABEL "com.github.actions.description"="A Github Action that will filter a git diff for the specified file/dir using regex"
+LABEL "com.github.actions.description"="Action that allows filtering of modified files using RegEx."
 LABEL "com.github.actions.icon"="filter"
 LABEL "com.github.actions.color"="black"
 
