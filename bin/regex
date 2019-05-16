@@ -1,0 +1,11 @@
+#!/bin/sh
+
+EXIT_CODE=$(git diff --stat | grep -c -E "$@")
+
+if [ $? -eq 0 ]; then
+    git diff --stat | grep -E "$@"
+    exit 0
+else
+    echo "Regex found nothing"
+    exit 78
+fi
